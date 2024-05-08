@@ -27,7 +27,7 @@ function Footer() {
               <ul>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium hover:text-gray-400 text-[#EFD9CE]"
+                    className=" text-base font-medium hover:text-gray-400 text-gray-200"
                     to="/"
                   >
                     Features
@@ -35,7 +35,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Pricing
@@ -43,7 +43,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Affiliate Program
@@ -51,7 +51,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Press Kit
@@ -68,7 +68,7 @@ function Footer() {
               <ul>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Account
@@ -76,7 +76,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Help
@@ -84,7 +84,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Contact Us
@@ -92,7 +92,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Customer Support
@@ -109,7 +109,7 @@ function Footer() {
               <ul>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Terms &amp; Conditions
@@ -117,7 +117,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Privacy Policy
@@ -125,7 +125,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-base font-medium text-[#EFD9CE] hover:text-gray-400"
+                    className=" text-base font-medium text-gray-200 hover:text-gray-400"
                     to="/"
                   >
                     Licensing
