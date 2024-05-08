@@ -16,11 +16,11 @@ function Home() {
 
   if (posts.length === 0) {
     return (
-      <div className="w-full py-8 mt-4 text-center">
+      <div className="w-full py-8 text-center bg-[#18181b] min-h-[60vh] border-b-2">
         <Container>
           <div className="flex flex-wrap">
             <div className="p-2 w-full">
-              <h1 className="text-2xl font-bold hover:text-gray-500">
+              <h1 className="text-2xl font-bold hover:text-gray-500 text-[#EFD9CE]">
                 <Link to='/login'>Login to read posts</Link>
               </h1>
             </div>
