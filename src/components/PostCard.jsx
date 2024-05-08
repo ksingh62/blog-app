@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function PostCard({ $id, title, featuredImage }) {
   return (
     <Link to={`/post/${$id}`}>
-      <div className="w-full bg-[#131315] hover:bg-gray-500 rounded-xl p-4 border-gray-400 border-2 text-white">
+      <div className="w-full bg-[#131315] hover:bg-gray-800 rounded-xl p-4 border-gray-400 border-2 text-white">
         <div className="w-full justify-center mb-4 flex items-center">
           <img
             src={appwriteService.getFilePreview(featuredImage)}
