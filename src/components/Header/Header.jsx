@@ -53,7 +53,7 @@ function Header() {
   return (
     <header className="py-3 shadow bg-[#131315] text-[#EFD9CE] border-b-2 border-gray-600">
       <Container>
-        <DarkMode />
+        {/* <DarkMode /> */}
         <nav className="flex justify-between">
           <div className="mr-4 self-center ">
             <Link to="/">
