@@ -102,7 +102,7 @@ export default function PostForm({ post }) {
           defaultValue={getValues("content")}
         />
       </div>
-      <div className="px-2 w-full md:w-1/3 ">
+      <div className="px-2 w-full md:w-1/3 mt-4">
         <Input
           label="Featured Image :"
           type="file"
