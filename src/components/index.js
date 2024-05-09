@@ -12,6 +12,7 @@ import PostCard from "./PostCard";
 import AuthLayout from "./AuthLayout";
 import Select from "./Select";
 import Signup from './Signup'
+import DarkMode from "./DarkMode/DarkMode";
 
 export {
   Header,
@@ -28,4 +29,5 @@ export {
   PostCard,
   AuthLayout,
   Select,
+  DarkMode,
 };

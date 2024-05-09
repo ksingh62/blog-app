@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Logo, LogoutBtn } from "../index";
+import { Container, Logo, LogoutBtn, DarkMode } from "../index";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -51,9 +51,8 @@ function Header() {
   };
 
   return (
-    <header className="py-3 shadow bg-[#131315] text-[#EFD9CE] border-b-2 border-gray-600">
+    <header className="py-3 shadow bg-white text-black dark:bg-[#131315] dark:text-[#EFD9CE] border-b-2 border-gray-600">
       <Container>
-        {/* <DarkMode /> */}
         <nav className="flex justify-between">
           <div className="mr-4 self-center ">
             <Link to="/">
@@ -62,7 +61,7 @@ function Header() {
           </div>
 
           <div className="md:hidden">
-            <button onClick={toggleMobileMenu} className="text-[#EFD9CE] p-2">
+            <button onClick={toggleMobileMenu} className="dark:text-[#EFD9CE] p-2">
               {isMobileMenuOpen ? "✖" : "☰"} {/* Toggle Icon */}
             </button>
           </div>
@@ -72,6 +71,7 @@ function Header() {
               isMobileMenuOpen ? "block" : "hidden"
             } md:block`}
           >
+            <li><DarkMode/></li>
             {navItems.map((item) =>
               item.active ? (
                 <li key={item.name} className="md:ml-4">
@@ -85,6 +85,7 @@ function Header() {
                     {item.name}
                   </button>
                 </li>
+                
               ) : null
             )}
             {authStatus && (
