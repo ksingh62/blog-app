@@ -16,7 +16,7 @@ function Home() {
 
   if (posts.length === 0) {
     return (
-      <div className="w-full py-8 text-center bg-gray-300 dark:bg-[#18181b] min-h-[60vh]">
+      <div className="w-full py-8 text-center bg-gray-300 dark:bg-[#18181b] min-h-[80vh]">
         <Container>
           <div className="flex flex-wrap">
             <div className="p-2 w-full">
