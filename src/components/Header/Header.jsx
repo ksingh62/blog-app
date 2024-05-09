@@ -41,8 +41,8 @@ function Header() {
   ];
 
   const getNavItemClass = (slug) => {
-    return `inline-block px-6 py-2 duration-200 hover:bg-purple-200 rounded-full hover:text-[#1f1a24] ${
-      location.pathname === slug ? "bg-purple-800" : ""
+    return `inline-block px-6 py-2 duration-200 hover:bg-gray-300 rounded-full hover:text-[#1f1a24] ${
+      location.pathname === slug ? "bg-purple-800 text-white" : ""
     }`;
   };
 
@@ -71,7 +71,7 @@ function Header() {
               isMobileMenuOpen ? "block" : "hidden"
             } md:block`}
           >
-            <li><DarkMode/></li>
+            <li className="md:ml-4"><DarkMode/></li>
             {navItems.map((item) =>
               item.active ? (
                 <li key={item.name} className="md:ml-4">

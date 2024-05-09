@@ -14,7 +14,7 @@ const ThemeToggle = () => {
 
   return (
     <button
-      className={` p-2 rounded-full ${
+      className={`inline-block px-4 py-2 duration-200 rounded-full  ${
         darkMode ? "bg-gray-200 text-black" : "bg-gray-800 text-white"
       }`}
       onClick={() => setDarkMode(!darkMode)}
